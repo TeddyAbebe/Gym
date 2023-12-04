@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: 'State of the Art Facilities',
     description:
-      'Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.',
+      'Experience top-notch facilities equipped with the latest technology and modern amenities. Our state-of-the-art gyms provide an unparalleled environment for your fitness journey.',
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      'Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.',
+      'Choose from a diverse range of classes tailored to meet the needs of every fitness enthusiast. With hundreds of options, you can explore and engage in classes that suit your preferences and goals.',
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: 'Expert and Pro Trainers',
     description:
-      'Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.',
+      'Receive guidance from experienced and professional trainers dedicated to helping you achieve your fitness goals. Our trainers are committed to providing personalized support and expertise on your fitness journey.',
   },
 ];
 
@@ -131,19 +131,20 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Embark on a transformative journey with us as you explore the
+                intricacies of fitness and well-being. Our facilities foster a
+                sense of community and commitment to personal growth. With a
+                focus on holistic health, we offer a variety of programs
+                designed to cater to different fitness levels and objectives.
               </p>
 
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Our team is dedicated to supporting you at every step, ensuring
+                a positive and empowering experience. Whether you are a beginner
+                or an experienced fitness enthusiast, our tailored approach to
+                training, combined with state-of-the-art equipment, will help
+                you surpass your limits and achieve the results you desire. Join
+                us on the path to a healthier, happier you.
               </p>
             </motion.div>
 
